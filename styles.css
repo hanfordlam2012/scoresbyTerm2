@@ -1,0 +1,31 @@
+/* Requirement #14 Use own classes to style elements */
+.content-margin {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.form-check {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+label {
+  margin-right: 10px;
+}
+
+/* Requirement #13 Use IDs to style elements */
+#pageTitle {
+
+  /* One of the requirements of #16 Change font-family, color, background-color */
+  color: purple;
+}
+
+html, body {
+  font-size: 1.2rem;
+
+  /* One of the requirements of #16 Change font-family, color, background-color */
+  background-color: paleturquoise;
+
+  /* One of the requirements of #16 Change font-family, color, background-color */
+  font-family: 'Neucha', cursive; /* You may use any font you like, including Google Fonts (recommended) */
+}
